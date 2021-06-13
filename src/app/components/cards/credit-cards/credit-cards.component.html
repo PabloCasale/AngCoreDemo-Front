@@ -1,1 +1,56 @@
-<p>credit-cards works!</p>
+<form>
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <fa-icon [icon]="faUserCircle"></fa-icon>
+                </div>
+            </div>
+            <input type="text" class="form-control" placeholder="Owner">
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <fa-icon [icon]="faCreditCard"></fa-icon>
+                </div>
+            </div>
+            <input type="text" class="form-control" placeholder="Card Number">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="form-group col-md-7">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-white">
+                            <fa-icon [icon]="faCalendarAlt"></fa-icon>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="DD/MM">
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-md-5">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-white">
+                            <fa-icon [icon]="faKey"></fa-icon>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="CVV">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <div class="btn btn-success btn-lg btn-block" type="submit">
+            <fa-icon [icon]="faSave"></fa-icon> Accept
+        </div>
+    </div>
+</form>

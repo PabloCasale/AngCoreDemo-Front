@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {faUserCircle, faCreditCard, faCalendarAlt, faKey, faSave} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-credit-cards',
@@ -7,6 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreditCardsComponent implements OnInit {
 
+  faUserCircle = faUserCircle;
+  faCreditCard = faCreditCard;
+  faCalendarAlt = faCalendarAlt;
+  faKey = faKey;
+  faSave = faSave;
+  
   constructor() { }
 
   ngOnInit(): void {
